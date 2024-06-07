@@ -1,0 +1,143 @@
+/*
+colot pallet
+Dark green 
+sandy baige
+dark gray 
+light gray
+off-white
+*/
+
+/* globale style */
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+}
+
+h1,h2,h3 {
+    font-family: "Caveat", cursive;
+    white-space: nowrap;
+    width: 500px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip;
+  }
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 10px;
+    border: 5px solid #3c8453;
+    margin-block-start: .67cm;
+    margin-block-end: .67cm;
+    float: 10px;
+}
+
+   
+html,body {
+    height: auto;
+    margin: 0%;
+}
+
+
+
+
+
+
+button { 
+    background-color: #3c8453;
+    color: #f6f6ff;
+}
+
+section, header {
+    background: light white;
+    padding: 20px;
+    margin: 0%;
+}
+
+.content-wrapper {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 30px;
+}
+
+/* link*/
+a {
+    color: #3c8453;
+}
+a:hover {
+    color: #bcaa96;
+    text-decoration: none;
+}
+
+
+
+
+/* home */
+
+.home {
+    background: url(img/sharon-mccutcheon-unsplash.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+ .content-wrapper {
+    background: white;
+    flex: 1 0 auto;
+}
+
+
+.download-link {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    box-shadow: #3c8453;
+}
+.botton1 {
+    position: fixed;
+    background-color: white
+    
+   
+
+}
+
+
+/* profile */
+
+.float {
+    margin-bottom: 20px;
+}
+.float h2 {
+    border-bottom : 2px dashed black;
+
+}
+
+
+
+
+/* footer */
+.social {
+    background-color: black;
+    opacity: 10;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
